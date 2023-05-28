@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREBES BERHIAS</title>
+    <!--CSS SWIPPE-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <!--header section dimulai-->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-hiking"></i>  BREBES. </a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa--times"></div>
+            <a href="index.html">Beranda</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+        </div>
+    </header>
+    <h1 class="heading1">Pantai Randusanga</h1> <br>
+    <center>
+        <section class="home" id="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/pantairandusanga.jpg" class="box">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/pantairandusanga2.jpg" class="box">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/pantairandusanga3.jpg" class="box">
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+        </section>
+        <h2><i>Swipe untuk melihat foto lainnya</i></h2>
+    </center>
+    <div class="sec">
+        <center>
+            <br>
+            <p>Pantai Randusanga terletak sebelah utara sekitar 5 Km dari pusat kota Brebes. Pantai ini menawarkan keindahan panorama laut jawa. Selain bisa menikmati terbit dan tenggelamnya matahari, pengunjung dapat berwisata perahu mengarungi laut dan
+                menikmati wisata kuliner dengan menu khas ikan bakar. Fasilitas yang disediakan juga cukup lengkap. Antara lain area parkir kendaraan, mushola, kamar mandi / MCK, dan penginapan.
+                <br>
+                <br> Objek wisata Pantai Randusanga Indah memiliki panjang sekitar 2 Km dengan luas lahan sekitar 30 Ha, tetapi yang baru dikembangkan sekitar 10 Ha, berbagai atraksi wisata yang ada di objek wisata ini yaitu atraksi wisata anak yang dilengkapi
+                dengan panggung gembira anak-anak, kolam becak air dan waterboom, arena wisata remaja dan dewasa yang dilengkapi dengan bangunan pendopo, penggung hiburan terbuka dan kafe, arena wisata bahari berupa pemandangan laut yang dilengkapi dengan
+                anjungan dan gazebo. Selain atraksi wisata, objek wisata ini juga dilengkapi dengan berbagai sarana dan fasilitas wisata untuk mendukung atraksi tersebut di antaranya yaitu mushola, toilet, fasilitas perdagangan, kantor pengelola dan lain
+                sebagainya. Objek wisata ini bisa menjadi trip alternatif untuk wisata sepeda atau jalan-jalan karena mempunyai garis pantai cukup panjang, dengan pasir pantainya yang tanpa batu dan udara laut yang segar sehingga menjadikan wilayah ini
+                ideal untuk jalan-jalan.
+                <br><br>
+
+            </p>
+    </div>
+    <!--JAVA SWIPPE-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.home-slider', {
+            loop: true,
+            grabCursor: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+<!-- footer/Copyright -->
+<footer>
+    <div class="footer ">
+        <small>Copyright &copy; 2021 - Shaka Arisya. All Rights Reserved. </small>
+    </div>
+</footer>
+
+</html>
